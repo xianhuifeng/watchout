@@ -1,4 +1,4 @@
-start slingin' some d3 here.
+//start slingin' some d3 here.
 
 var gameOptions = {
   height: 450,
