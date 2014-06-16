@@ -5,11 +5,6 @@ Feel free to use it if you like. */
 .enemy {
   fill: green;
 }
-.container {
-  position: relative;
-  box-shadow: 0px 0px 10px rgba(0,0,0,1);
-  width: 700px;
-}
 #scores {
   padding: 10px;
   position: absolute;
@@ -23,9 +18,11 @@ Feel free to use it if you like. */
   display: inline-block;
   width: 50px;
 }
-.container {
-  background: white;
-  padding: 40px;
+.svg {
+  position: relative;
+  box-shadow: 0px 0px 10px rgba(0,0,0,1);
+  background: black;
+  padding: 10px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -51,4 +48,8 @@ Feel free to use it if you like. */
 
 circle.area {
   fill: #fff;
+}
+
+.player{
+  fill: pink;
 }
